@@ -5,7 +5,7 @@ This requires pgAdmin 4, which is a GUI for PostgreSQL. You can download it from
 
 1. Open up pgAdmin 4 and create a new Database, named "students".
 2. Create a new table in the "students" database using the following command:
-```
+```postgresql
 CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
     first_name TEXT NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE students (
 )
 ```
 3. Insert some data into the table either manually, or you can use the following command to insert some sample data:
-```
+```postgresql
 INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
