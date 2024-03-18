@@ -1,7 +1,6 @@
 # Setting Up The Program:
 
-This requires pgAdmin 4, which is a GUI for PostgreSQL. You can download it from [here]
-(https://www.pgadmin.org/download/).
+This requires pgAdmin 4, which is a GUI for PostgreSQL. You can download it from [here](https://www.pgadmin.org/download/).
 
 1. Open up pgAdmin 4 and create a new Database, named "students".
 2. Create a new table in the "students" database using the following command:
