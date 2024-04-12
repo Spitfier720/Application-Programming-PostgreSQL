@@ -71,7 +71,7 @@ def getInput():
         return getInput()
 
 def main():
-    connection = createConnection("students", "postgres", "tent6squad", "127.0.0.1", "5432")
+    connection = createConnection("students", "postgres", "password", "127.0.0.1", "5432")
 
     option = getInput()
     while(option != 0):
